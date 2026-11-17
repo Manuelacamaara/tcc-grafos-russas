@@ -1,0 +1,72 @@
+ESCALABILIDADE COM MÉTODOS DE REFERÊNCIA
+
+Tipo de grafo: grade quadrada conectada
+Repetições de aquecimento por instância: 5
+Repetições medidas por instância: 30
+Limite do SciPy por execução: 60 segundos
+Unidade dos tempos: milissegundos
+
+Grade 5x5
+Vértices: 25
+Arestas: 40
+Heurística - vértices selecionados: 13
+Heurística - tempo médio: 0.209457 ms
+NetworkX - vértices selecionados: 24
+NetworkX - tempo médio: 0.055480 ms
+SciPy - status: ótimo comprovado
+SciPy - vértices ótimos: 12
+SciPy - tempo médio: 14.925767 ms
+Diferença da heurística para o ótimo: 1
+Diferença do NetworkX para o ótimo: 12
+
+Grade 7x7
+Vértices: 49
+Arestas: 84
+Heurística - vértices selecionados: 25
+Heurística - tempo médio: 0.492550 ms
+NetworkX - vértices selecionados: 48
+NetworkX - tempo médio: 0.118587 ms
+SciPy - status: ótimo comprovado
+SciPy - vértices ótimos: 24
+SciPy - tempo médio: 16.518153 ms
+Diferença da heurística para o ótimo: 1
+Diferença do NetworkX para o ótimo: 24
+
+Grade 10x10
+Vértices: 100
+Arestas: 180
+Heurística - vértices selecionados: 50
+Heurística - tempo médio: 1.037673 ms
+NetworkX - vértices selecionados: 99
+NetworkX - tempo médio: 0.131603 ms
+SciPy - status: ótimo comprovado
+SciPy - vértices ótimos: 50
+SciPy - tempo médio: 12.198373 ms
+Diferença da heurística para o ótimo: 0
+Diferença do NetworkX para o ótimo: 49
+
+Grade 15x15
+Vértices: 225
+Arestas: 420
+Heurística - vértices selecionados: 113
+Heurística - tempo médio: 5.195320 ms
+NetworkX - vértices selecionados: 224
+NetworkX - tempo médio: 0.308630 ms
+SciPy - status: ótimo comprovado
+SciPy - vértices ótimos: 112
+SciPy - tempo médio: 19.003470 ms
+Diferença da heurística para o ótimo: 1
+Diferença do NetworkX para o ótimo: 112
+
+Grade 20x20
+Vértices: 400
+Arestas: 760
+Heurística - vértices selecionados: 200
+Heurística - tempo médio: 10.181050 ms
+NetworkX - vértices selecionados: 399
+NetworkX - tempo médio: 0.484497 ms
+SciPy - status: ótimo comprovado
+SciPy - vértices ótimos: 200
+SciPy - tempo médio: 23.102500 ms
+Diferença da heurística para o ótimo: 0
+Diferença do NetworkX para o ótimo: 199

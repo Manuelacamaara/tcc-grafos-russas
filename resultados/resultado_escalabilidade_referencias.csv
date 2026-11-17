@@ -1,0 +1,6 @@
+﻿grade,vertices,arestas,vertices_heuristica,tempo_heuristica_media_ms,vertices_networkx,tempo_networkx_media_ms,status_scipy,vertices_otimos_scipy,tempo_scipy_media_ms,diferenca_heuristica,desvio_heuristica_percentual,diferenca_networkx,desvio_networkx_percentual
+5x5,25,40,13,0.209457,24,0.055480,ótimo comprovado,12,14.925767,1,8.333333,12,100.000000
+7x7,49,84,25,0.492550,48,0.118587,ótimo comprovado,24,16.518153,1,4.166667,24,100.000000
+10x10,100,180,50,1.037673,99,0.131603,ótimo comprovado,50,12.198373,0,0.000000,49,98.000000
+15x15,225,420,113,5.195320,224,0.308630,ótimo comprovado,112,19.003470,1,0.892857,112,100.000000
+20x20,400,760,200,10.181050,399,0.484497,ótimo comprovado,200,23.102500,0,0.000000,199,99.500000

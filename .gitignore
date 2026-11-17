@@ -1,0 +1,39 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Cache do OSMnx
+cache/
+
+# Cache e arquivos compilados do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache de ferramentas
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Configurações de editores
+.vscode/
+.idea/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+estrutura_projeto.txt
+
+# Cópias e arquivos compactados
+*.zip
+*_backup/
+
+# Resultados intermediários
+resultados/intermediarios/

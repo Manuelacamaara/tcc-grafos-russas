@@ -1,0 +1,48 @@
+COMPARAÇÃO COM MÉTODOS DE REFERÊNCIA
+
+Vértices do grafo: 26
+Arestas do grafo: 37
+Repetições de aquecimento: 10
+Repetições medidas: 100
+Unidade dos tempos: milissegundos
+
+QUALIDADE DAS SOLUÇÕES
+
+Heurística proposta
+Vértices selecionados: 14
+Identificações: V02, V04, V06, V07, V08, V09, V10, V15, V16, V18, V19, V20, V23, V24
+Diferença para o ótimo: 0
+Desvio percentual: 0.00%
+Razão em relação ao ótimo: 1.0000
+
+Aproximação do NetworkX
+Vértices selecionados: 23
+Identificações: V02, V03, V04, V05, V06, V07, V08, V09, V10, V11, V12, V13, V14, V15, V16, V17, V18, V19, V21, V22, V23, V24, V26
+Diferença para o ótimo: 9
+Desvio percentual: 64.29%
+Razão em relação ao ótimo: 1.6429
+
+Solução exata do SciPy/HiGHS
+Vértices selecionados: 14
+Identificações: V02, V04, V06, V07, V10, V11, V13, V17, V18, V19, V20, V24, V25, V26
+Diferença para o ótimo: 0
+Desvio percentual: 0.00%
+Razão em relação ao ótimo: 1.0000
+
+DESEMPENHO
+
+Heurística proposta: média=0.170510 ms; mediana=0.141900 ms; desvio-padrão=0.094797 ms; mínimo=0.100300 ms; máximo=0.729700 ms
+Razão do tempo médio em relação à heurística: 1.0000
+
+Aproximação do NetworkX: média=0.061925 ms; mediana=0.049450 ms; desvio-padrão=0.052993 ms; mínimo=0.024000 ms; máximo=0.381700 ms
+Razão do tempo médio em relação à heurística: 0.3632
+
+Solução exata do SciPy/HiGHS: média=17.863915 ms; mediana=15.673650 ms; desvio-padrão=5.816508 ms; mínimo=13.043800 ms; máximo=44.471000 ms
+Razão do tempo médio em relação à heurística: 104.7676
+
+VALIDAÇÃO DO MÉTODO EXATO
+
+Status do SciPy: 0
+Mensagem: Optimization terminated successfully. (HiGHS Status 7: Optimal)
+Valor ótimo da função objetivo: 14
+Gap final do solucionador: 0.00000000

@@ -1,0 +1,29 @@
+VALIDAÇÃO DA REDE VIÁRIA
+
+Tipo original: MultiGraph
+Grafo direcionado: False
+Quantidade de vértices: 26
+Quantidade de arestas: 37
+Laços: 0
+Arestas paralelas: 0
+Vértices isolados: 0
+Componentes conexos: 1
+Tamanhos dos componentes: [26]
+
+RESULTADO DO BFS
+
+Vértice inicial: V08
+Grau do vértice inicial: 4
+Vértices visitados: 26
+Total de vértices: 26
+Maior nível alcançado: 7
+Rede conectada: True
+
+ESTATÍSTICAS DE GRAU
+
+Grau mínimo: 2
+Grau máximo: 4
+Grau médio: 2.85
+
+Ordem de visita do BFS:
+V08, V02, V06, V11, V13, V01, V03, V12, V15, V16, V10, V04, V18, V19, V17, V14, V05, V21, V22, V20, V07, V24, V09, V23, V25, V26
